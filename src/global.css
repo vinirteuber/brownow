@@ -1,18 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   border: 0;
   box-sizing: border-box;
   font-family: "Arimo", sans-serif;
   font-weight: 400;
-
 }
 
-
-body{
-  background-color: #E8E5E0;
+body {
+  background-color: #e8e5e0;
 }
 
 .card {
@@ -26,43 +24,41 @@ body{
   color: #fff;
 }
 
-
-header{
+header {
   display: flex;
-  
+
   width: 100%;
   height: 190px;
-  background-color: #3D2F2C;
+  background-color: #3d2f2c;
 }
 
-
-.list ul{
+.list ul {
   margin-left: 20rem;
   margin-top: 9.5rem;
   list-style: none;
   display: flex;
 }
 
-.list li{
+.list li {
   cursor: pointer;
   color: #fff;
   margin-left: 4rem;
 }
 
-.list li:hover{
+.list li:hover {
   transition: 0.5s;
   border-bottom: 4px solid #fff;
 }
 
-.itens{
+.itens {
   display: flex;
 }
 
-.logo img{
-  width:300px;
+.logo img {
+  width: 300px;
 }
 
-.search input{
+.search input {
   font-size: 1rem;
   margin-top: 7rem;
   border: none;
@@ -72,13 +68,13 @@ header{
   width: 400px;
 }
 
-
-.itens{
+.itens {
+  cursor: pointer;
   margin-top: 4rem;
   margin-left: 10rem;
 }
 
-.itens img{
+.itens img {
   margin-left: 1rem;
 }
 
@@ -88,33 +84,74 @@ header{
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 
-.banner img{
+.banner img {
   width: 80%;
   border-radius: 1rem;
-
 }
 
-.cards{
-  background-color: #A78983;
+.cards {
+  background-color: #a78983;
   width: 350px;
   height: 400px;
   border-radius: 2rem;
 }
 
-.all-cards{
-
+.all-cards {
   justify-content: center;
   align-items: center;
   display: flex;
 }
 
-
-.cards{
+.cards {
   margin-left: 4rem;
   margin-top: 3rem;
   display: flex;
   align-items: center;
+}
+
+.container {
+  border-radius: 4rem;
+  margin-top: 5rem;
+  width: 1000px;
+  height: 500px;
+  background-color: #3d2f2c;
+}
+
+.title {
+  color: #aa8c85;
+  font-weight: bold;
+  font-size: 26pt;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.all {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inp-log {
+  margin-left: 3rem;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.inp-log input {
+  padding: 10px;
+  border-radius: 50px;
+  height: 40px;
+  width: 900px;
+}
+
+.label {
+  font-size: 32pt;
+  color: #fff;
+  margin-bottom: 10px;
 }
